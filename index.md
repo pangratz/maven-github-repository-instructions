@@ -9,6 +9,8 @@ This template configures your Maven project so your builds (snapshots and releas
 a Maven Repository hosted inside the GitHub repository of the project. The Maven Repository makes use
 of the neat GitHub pages feature, and therefore the binaries are located in the `gh-pages` branch of your project.
 
+This project is heavily inspired by [this](http://cemerick.com/2010/08/24/hosting-maven-repos-on-github/) blog post from Chas Emerick.
+
 ## Modify the contents of your projects' pom.xml
 
 1. add the following properties and fill in your GitHub username and the name of the project on GitHub
