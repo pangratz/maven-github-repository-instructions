@@ -41,10 +41,13 @@ of the neat GitHub pages feature, and therefore the binaries are located in the 
 
 ## Release a new version or snapshot
 
-execute either `deployVersion.sh` or `deploySnapshot.sh`
+execute either
 	
 	./deploySnapshot.sh
 
+or 
+
+	./deploySnapshot.sh
 
 
 ## Use the project files as dependency in other Maven projects
