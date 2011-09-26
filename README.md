@@ -1,0 +1,1 @@
+visit project documentation at http://pangratz.github.com/gae-restlet-archetype
