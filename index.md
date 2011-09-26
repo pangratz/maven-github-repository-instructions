@@ -41,7 +41,7 @@ of the neat GitHub pages feature, and therefore the binaries are located in the 
 			</profile>
 		</profiles>
 		
-4. download the scripts [deploySnapshot.sh] and [deployVersion.sh] into the root folder of your Maven project
+4. download the scripts [deploySnapshot.sh](deploySnapshot.sh) and [deployVersion.sh](deployVersion.sh) into the root folder of your Maven project
 
 
 ## Release a new version or snapshot
