@@ -57,18 +57,19 @@ or
 
 ## Use the project files as dependency in other Maven projects
 
-add your projects' maven repository and replace YOUR_GITHUB_USER_NAME with your, you guessed it, GitHub user name.
+add your projects' maven repository and replace `YOUR_GITHUB_USER_NAME` with your, you guessed it, GitHub user
+name and `YOUR_PROJECT_NAME_ON_GITHUB` with the name of the project on GitHub.
 
 	<repositories>
 		...
 		<repository>
 		    <id>YOUR_GITHUB_USER_NAME-mvn-repo-releases</id>
-		    <url>http://YOUR_GITHUB_USER_NAME.github.com/maven-repository/releases</url>
+		    <url>http://YOUR_GITHUB_USER_NAME.github.com/YOUR_PROJECT_NAME_ON_GITHUB/releases</url>
 		</repository>
 		<!-- remove the following repository if you don't want to use snapshot releases -->
 		<repository>
 		    <id>YOUR_GITHUB_USER_NAME-mvn-repo-snapshots</id>
-		    <url>http://YOUR_GITHUB_USER_NAME.github.com/maven-repository/snapshots</url>
+		    <url>http://YOUR_GITHUB_USER_NAME.github.com/YOUR_PROJECT_NAME_ON_GITHUB/snapshots</url>
 		</repository>
 		...
 	</repositories>
