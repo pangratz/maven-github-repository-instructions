@@ -1,9 +1,9 @@
 ---
-title: Template for a Maven Project with a built in Maven Repository hosted on GitHub
+title: Instructions for a Maven Project with a built in Maven Repository hosted on GitHub
 layout: default
 ---
 
-# Template for a Maven Project with a built in Maven Repository hosted on GitHub
+# Instructions for a Maven Project with a built in Maven Repository hosted on GitHub
 
 This template configures your Maven project so your builds (snapshots and releases) are deployed to
 a Maven Repository hosted inside the GitHub repository of the project. The Maven Repository makes use
