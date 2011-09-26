@@ -1,0 +1,1 @@
+# Template for a Maven Project with a built in Maven Repository hosted on GitHub
