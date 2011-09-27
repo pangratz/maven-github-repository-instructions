@@ -35,12 +35,14 @@ This project is heavily inspired by [this](http://cemerick.com/2010/08/24/hostin
 3. add a `deploy-snapshot` profile
 
 		<profiles>
+			...
 			<profile>
 				<id>deploy-snapshot</id>
 				<properties>
 					<altDeploymentRepository>snapshot-repo::default::file:repository/snapshots</altDeploymentRepository>
 				</properties>
 			</profile>
+			...
 		</profiles>
 		
 4. download the scripts [deploySnapshot.sh](deploySnapshot.sh) and [deployVersion.sh](deployVersion.sh) into the root folder of your Maven project
